@@ -1,0 +1,449 @@
+<!DOCTYPE html><html class="light" lang="tr" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-tertiary": "#ffffff",
+                      "primary-container": "#a3d9c9",
+                      "secondary-fixed-dim": "#dfc29c",
+                      "on-secondary-fixed": "#271902",
+                      "on-secondary-fixed-variant": "#574326",
+                      "on-primary-container": "#2c6054",
+                      "primary-fixed-dim": "#9cd1c2",
+                      "on-surface-variant": "#404945",
+                      "primary-fixed": "#b7eedd",
+                      "link-blue": "#0066CC",
+                      "on-surface": "#1a1c1d",
+                      "on-primary-fixed-variant": "#194f43",
+                      "tertiary": "#5f5e60",
+                      "on-tertiary-container": "#585759",
+                      "on-primary-fixed": "#00201a",
+                      "tertiary-fixed-dim": "#c8c6c8",
+                      "on-error": "#ffffff",
+                      "secondary-fixed": "#fcdeb6",
+                      "on-error-container": "#93000a",
+                      "outline": "#707975",
+                      "tertiary-container": "#d0cdd0",
+                      "surface-tint": "#34675b",
+                      "surface": "#f9f9fb",
+                      "inverse-primary": "#9cd1c2",
+                      "outline-variant": "#c0c9c4",
+                      "surface-white": "#FFFFFF",
+                      "on-tertiary-fixed-variant": "#474649",
+                      "inverse-on-surface": "#f0f0f2",
+                      "secondary-container": "#fcdeb6",
+                      "error": "#ba1a1a",
+                      "surface-container-low": "#f3f3f5",
+                      "wood-light": "#F6DCB8",
+                      "surface-container-highest": "#e2e2e4",
+                      "error-container": "#ffdad6",
+                      "text-muted": "#6E6E73",
+                      "on-background": "#1a1c1d",
+                      "surface-variant": "#e2e2e4",
+                      "secondary": "#705b3b",
+                      "on-primary": "#ffffff",
+                      "on-secondary": "#ffffff",
+                      "inverse-surface": "#2f3132",
+                      "on-tertiary-fixed": "#1b1b1d",
+                      "surface-container-lowest": "#ffffff",
+                      "on-secondary-container": "#776141",
+                      "background": "#f9f9fb",
+                      "surface-container-high": "#e8e8ea",
+                      "primary": "#34675b",
+                      "surface-dim": "#d9dadc",
+                      "surface-container": "#eeeef0",
+                      "surface-bright": "#f9f9fb",
+                      "tertiary-fixed": "#e4e2e4"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "section-padding-desktop": "120px",
+                      "base": "8px",
+                      "gutter": "24px",
+                      "container-max": "1200px",
+                      "stack-sm": "8px",
+                      "section-padding-mobile": "64px",
+                      "stack-lg": "32px",
+                      "stack-md": "16px"
+              },
+              "fontFamily": {
+                      "headline-lg": [
+                              "Montserrat"
+                      ],
+                      "caption": [
+                              "Inter"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "label-md": [
+                              "Inter"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "display-lg": [
+                              "Montserrat"
+                      ],
+                      "headline-lg-mobile": [
+                              "Montserrat"
+                      ],
+                      "display-lg-mobile": [
+                              "Montserrat"
+                      ],
+                      "headline-md": [
+                              "Montserrat"
+                      ]
+              },
+              "fontSize": {
+                      "headline-lg": [
+                              "40px",
+                              {
+                                      "lineHeight": "48px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-lg": [
+                              "20px",
+                              {
+                                      "lineHeight": "30px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display-lg": [
+                              "64px",
+                              {
+                                      "lineHeight": "72px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "32px",
+                              {
+                                      "lineHeight": "36px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display-lg-mobile": [
+                              "40px",
+                              {
+                                      "lineHeight": "44px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-md": [
+                              "28px",
+                              {
+                                      "lineHeight": "34px",
+                                      "fontWeight": "600"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    }catch(_e){}</script></head><body class="bg-surface text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container" data-current-lang="tr">
+<!-- TopNavBar -->
+<header class="docked full-width top-0 sticky bg-surface/80 dark:bg-inverse-surface/80 backdrop-blur-md border-none shadow-sm dark:shadow-none z-50">
+<div class="flex justify-between items-center w-full px-gutter max-w-container-max mx-auto h-20">
+<div class="font-headline-md text-headline-md font-bold tracking-tight text-on-surface dark:text-inverse-on-surface flex-1">
+                mamatoyz
+            </div>
+<nav class="hidden md:flex items-center gap-gutter flex-1 justify-center">
+<a class="font-label-md text-label-md text-primary dark:text-inverse-primary border-b-2 border-primary dark:border-inverse-primary pb-1" href="#">
+Ana Sayfa
+</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors" href="#">
+Hakkımızda
+</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors" href="#">Blog</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors" href="#">
+İletişim
+</a>
+</nav><div class="hidden md:block flex-1"></div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative w-full min-h-[80vh] flex items-center pt-20 overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 z-0">
+<img alt="MyChair All in One" class="w-full h-full object-cover opacity-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2Y4BpAgAO3VHE61Qq_Kiv3ZcRsJZn1B7VlCupNM8QPKz_w6L2hyyP9V44B9ipxULnIX6LY-64OGruclXS3S7ibor4G2S5DRyTyYxrGgKl6mMdWdlZJVpQcJF7DR5TNML8Y8fWKQWQYKzbNXBM4STJPFG0pSCq-nT5GpVHcPvhJkBD3g-OVIy0sUfa_YrPu5aPiK-LDEvb1YbYS-L9sqPurG0BsvAojoR17BhBrzmvBAP6R1Zf0ejTNnBpMm8Z4sS0oPjABvmQKkXKn2g">
+<div class="absolute inset-0 bg-gradient-to-r from-surface-white/80 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-gutter w-full">
+<div class="max-w-2xl flex flex-col gap-stack-lg">
+<span class="inline-block px-4 py-2 bg-wood-light/30 rounded-full font-label-md text-label-md text-on-surface-variant w-max backdrop-blur-sm">
+Ödüllü Tasarım
+</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface">
+Mama Sandalyeleri Ürünlerinde En Kaliteli ve Sağlıklı Seçenek
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+Çocuğunuz için en güvenli ve sağlıklı beslenme deneyimini ahşap tasarımın zarafetiyle keşfedin.
+</p>
+<div class="flex gap-4 pt-4">
+</div>
+</div>
+</div>
+</section>
+<!-- Only Chair Section -->
+<section class="py-section-padding-mobile md:py-section-padding-desktop px-gutter bg-surface">
+<div class="max-w-container-max mx-auto">
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="order-2 md:order-1 rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] bg-surface-white">
+<img alt="MyChair Only Chair" class="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFOAxDfQy9eFRc96MXyqiRc4vVnlkuSeBsD_QIZH0pM69CG9p4_qgkML6_f0osXzZBbszUwEfhApyqZ1xPPleHYFXC4De5armA3TDakD6SJbuBc1_bTbuJ3PAn8sBsDPhpE5VyruD9NS33h3Ft-DAfW0ZfjK7usFbmX_bPQUsngvl1dNBghM43RBx-x2bUar0Ls7rzD3Hwn8lyJEOXiJ9u5OgbRj62ND8qYqDC4B_TTzBu31VnGPWImnwvwQ5ObuSb-CA">
+</div>
+<div class="order-1 md:order-2 flex flex-col gap-stack-lg">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+MyChair Only Chair: Sadece Bir Mama Sandalyesi Değil, Bir Gelişim Alanı
+</h2>
+<div class="flex flex-col gap-stack-md font-body-md text-body-md text-on-surface-variant">
+<p class="">
+Doğal huş ağacından üretilen MyChair, çocuğunuzun büyüme evrelerine uyum sağlayan yenilikçi bir Montessori tasarımıdır. Estetik ve fonksiyonelliği bir araya getiren bu sandalye, güvenli ve bağımsız bir oturma deneyimi sunar.
+</p>
+<ul class="flex flex-col gap-3 mt-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary-container mt-1" data-weight="fill">check_circle</span>
+<span class="">
+Sürdürülebilir ahşap malzeme ve çevre dostu üretim.
+</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary-container mt-1" data-weight="fill">check_circle</span>
+<span class="">
+Kolay ayarlanabilir basamak yükseklikleri.
+</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary-container mt-1" data-weight="fill">check_circle</span>
+<span class="">
+Doğru postürü destekleyen ergonomik oturma alanı.
+</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Lifestyle Showcase Section -->
+<section class="py-12 md:py-16 px-gutter bg-surface">
+<div class="max-w-container-max mx-auto">
+<div class="rounded-2xl overflow-hidden shadow-sm">
+<img alt="MyChair Lifestyle" class="w-full h-auto object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcllhupFvOAr34PR-YXslY55ax_TH2L_ObHoercrry8kJOdkFVNyPqAhF5nQAs-Ylo7Nr9BwEbdmdIMlUcuef6RcnUkj5txa_e26pTXJbuliYcurwhAxbOnEYTUrTljS3xo_Z7JX3TDMa_LGD-A2hVHv_0BssqqGdvYqMVlnY5OkMRGJ2N3tae2sKVpBtykB0tuqOvvUwU8nlAAngOtRJR3G6EioI6-CplZRix_ostnyrfhjz9gRBuBNLpcuEYRvx6KS8">
+</div>
+</div>
+</section>
+<!-- All in One Section -->
+<section class="py-section-padding-mobile md:py-section-padding-desktop px-gutter bg-surface-container-low">
+<div class="max-w-container-max mx-auto">
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-stack-lg">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+MyChair All in One Chair: Eksiksiz Bir Deneyim
+</h2>
+<div class="flex flex-col gap-stack-md font-body-md text-body-md text-on-surface-variant">
+<p class="">
+Ekstra güvenlik ve konfor detaylarıyla donatılmış All in One versiyonu, beslenme saatlerini hem ebeveynler hem de çocuklar için keyifli bir ritüele dönüştürür.
+</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+<div class="bg-surface-white p-6 rounded-xl shadow-sm border border-outline-variant/20">
+<span class="material-symbols-outlined text-primary text-3xl mb-3">restaurant</span>
+<h3 class="font-label-md text-label-md text-on-surface mb-2">
+Çıkarılabilir Silikon Mat
+</h3>
+<p class="font-caption text-caption text-on-surface-variant">
+Kolay temizlenebilir yüzey ile hijyenik beslenme.
+</p>
+</div>
+<div class="bg-surface-white p-6 rounded-xl shadow-sm border border-outline-variant/20">
+<span class="material-symbols-outlined text-primary text-3xl mb-3">security</span>
+<h3 class="font-label-md text-label-md text-on-surface mb-2">
+Güvenlik Barı ve Kemer
+</h3>
+<p class="font-caption text-caption text-on-surface-variant">
+Aktif bebekler için maksimum güvenlik donanımı.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] bg-surface-white">
+<img alt="MyChair All in One Detail" class="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAw8_LfRlkXVrjJniikTMsgNokWD3hGkSc5xILsRZTNGVTN9NbHHS1DUhg-rP1pORdaHW0gm_Gj7Q3WklSmxwdT0rWL6dIuLcnz4x4WNPEMO6fTYg2VNl-0y0ATzrkJDSbIgb_tWrPP1RxSzVeXH9eGElfYrdZ8AwsT6Kj_vtz6Y74RtlO4tYXpRvZYx0-AX9_gAj6C2Y7Q7XocrLW_TQVMtZBCBhOfIHh3mc9NmpVm4y3CscSlnUpkLrigiRaJf3jJm5u62SmnTHIDCBo">
+</div>
+</div>
+</div>
+</section>
+<!-- Comparison Table -->
+<section class="py-section-padding-mobile md:py-section-padding-desktop px-gutter bg-surface">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+Sizin İçin En Doğru Seçimi Yapın
+</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4">
+İhtiyaçlarınıza en uygun modeli karşılaştırarak bulun.
+</p>
+</div>
+<div class="bg-surface-white rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] border border-outline-variant/20 overflow-x-auto">
+<table class="w-full text-left border-collapse min-w-[600px]">
+<thead>
+<tr>
+<th class="p-6 bg-surface-container-low/50 w-1/3"></th>
+<th class="p-6 text-center border-l border-outline-variant/20 bg-surface-white w-1/3">
+<div class="flex flex-col items-center gap-4">
+<img alt="Only Chair" class="w-32 h-32 object-contain mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcOKpdNhamgRRUP9iECunAZbuHYgpwd6Ocxvjh8J7_aUMRsA4yv3v3OgamDMDN3MukuAevMhZcxAk6Y-BNkVlr_xVg-csYK9k8LB6tvxes7Ipv-lljZJMPW1do6hiuJO0zkiriSYzGODiUUYEXujlCUiR4tY3oTsYHPrV_QHPe1wCu19XrL-gsMPo0_aclvo0V92rgvkHcqSnCs1O8pDgw5lBTVlrjHaTMJ9GZiT804N7Ia18giqDVSGTDoUW-X-Feu8w">
+<span class="font-headline-md text-headline-md text-on-surface">Only Chair</span>
+</div>
+</th>
+<th class="p-6 text-center border-l border-outline-variant/20 bg-surface-white w-1/3">
+<div class="flex flex-col items-center gap-4">
+<img alt="All in One" class="w-32 h-32 object-contain mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxoVPGcJge7DRNiopNhZWFb7TncVyzJpL8ZSpBsEJ8ZcnjnXk7hm6-iUydsuQhN1oYGhNm-rZZG_pazsmKWhdIvk8gHWkeuegTP2FASFj-xqlOSOw9HKeZrQ-o3WqPEwNCS5xREcO1cLE6JTYLmAmB0XnBBX0uPbz8w2Qv7Rj9Ihu00NZVQ1tEXIyf7DY5aYcUnIBDdeSFqtX4Kqc5yK85HRlhlc9-kZXzEOVR080bpwJHlz0wzPDnauyuZjMI1xOByAE">
+<span class="font-headline-md text-headline-md text-on-surface text-primary">All in One</span>
+</div>
+</th>
+</tr>
+</thead>
+<tbody class="font-body-md text-body-md text-on-surface-variant">
+<tr class="border-t border-outline-variant/20">
+<td class="p-4 pl-6 font-medium text-on-surface">
+Katlanma
+</td>
+<td class="p-4 text-center border-l border-outline-variant/20"><span class="material-symbols-outlined text-primary-container" data-weight="fill">check</span></td>
+<td class="p-4 text-center border-l border-outline-variant/20 bg-primary-container/5"><span class="material-symbols-outlined text-primary-container" data-weight="fill">check</span></td>
+</tr>
+<tr class="border-t border-outline-variant/20 bg-surface-container-lowest">
+<td class="p-4 pl-6 font-medium text-on-surface">
+Kilit Mekanizması
+</td>
+<td class="p-4 text-center border-l border-outline-variant/20"><span class="material-symbols-outlined text-primary-container" data-weight="fill">check</span></td>
+<td class="p-4 text-center border-l border-outline-variant/20 bg-primary-container/5"><span class="material-symbols-outlined text-primary-container" data-weight="fill">check</span></td>
+</tr>
+<tr class="border-t border-outline-variant/20">
+<td class="p-4 pl-6 font-medium text-on-surface">
+Basamak Yükseklik Ayarı
+</td>
+<td class="p-4 text-center border-l border-outline-variant/20"><span class="material-symbols-outlined text-primary-container" data-weight="fill">check</span></td>
+<td class="p-4 text-center border-l border-outline-variant/20 bg-primary-container/5"><span class="material-symbols-outlined text-primary-container" data-weight="fill">check</span></td>
+</tr>
+<tr class="border-t border-outline-variant/20 bg-surface-container-lowest">
+<td class="p-4 pl-6 font-medium text-on-surface">
+Ahşap Tepsi
+</td>
+<td class="p-4 text-center border-l border-outline-variant/20 text-outline"><span class="material-symbols-outlined">close</span></td>
+<td class="p-4 text-center border-l border-outline-variant/20 bg-primary-container/5"><span class="material-symbols-outlined text-primary-container" data-weight="fill">check</span></td>
+</tr>
+<tr class="border-t border-outline-variant/20">
+<td class="p-4 pl-6 font-medium text-on-surface">
+Silikon Tepsi
+</td>
+<td class="p-4 text-center border-l border-outline-variant/20 text-outline"><span class="material-symbols-outlined">close</span></td>
+<td class="p-4 text-center border-l border-outline-variant/20 bg-primary-container/5"><span class="material-symbols-outlined text-primary-container" data-weight="fill">check</span></td>
+</tr>
+<tr class="border-t border-outline-variant/20 bg-surface-container-lowest">
+<td class="p-4 pl-6 font-medium text-on-surface">
+Emniyet Kemeri
+</td>
+<td class="p-4 text-center border-l border-outline-variant/20 text-outline"><span class="material-symbols-outlined">close</span></td>
+<td class="p-4 text-center border-l border-outline-variant/20 bg-primary-container/5"><span class="material-symbols-outlined text-primary-container" data-weight="fill">check</span></td>
+</tr>
+<tr class="border-t border-outline-variant/20">
+<td class="p-4 pl-6 font-medium text-on-surface">
+Ön Bar
+</td>
+<td class="p-4 text-center border-l border-outline-variant/20 text-outline"><span class="material-symbols-outlined">close</span></td>
+<td class="p-4 text-center border-l border-outline-variant/20 bg-primary-container/5"><span class="material-symbols-outlined text-primary-container" data-weight="fill">check</span></td>
+</tr>
+<tr class="border-t border-outline-variant/20 bg-surface-container-lowest">
+<td class="p-4 pl-6 font-medium text-on-surface">
+Oturma Minderi
+</td>
+<td class="p-4 text-center border-l border-outline-variant/20 text-outline"><span class="material-symbols-outlined">close</span></td>
+<td class="p-4 text-center border-l border-outline-variant/20 bg-primary-container/5 text-outline"><span class="material-symbols-outlined">close</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="full-width py-section-padding-desktop bg-surface-container dark:bg-inverse-surface border-t border-outline-variant/30"><div class="grid grid-cols-1 md:grid-cols-4 gap-gutter max-w-container-max mx-auto px-gutter">
+<div class="col-span-1 md:col-span-2">
+<div class="font-headline-md text-headline-md font-bold text-on-surface dark:text-inverse-on-surface mb-4">
+                    mamatoyz
+                </div>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant max-w-sm mb-6">
+                    © 2024 Mamatoyz. Oyun Dolu Deneyim. Tüm hakları saklıdır.
+                </p>
+</div>
+
+<div class="flex flex-col gap-stack-sm">
+<h4 class="font-label-md text-label-md text-on-surface dark:text-inverse-on-surface mb-2">
+Sosyal Medya
+</h4>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200" href="#">Instagram</a>
+<a class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200" href="#">Facebook</a>
+</div>
+<div class="flex flex-col gap-stack-sm">
+<h4 class="font-label-md text-label-md text-on-surface dark:text-inverse-on-surface mb-2">
+İletişim
+</h4>
+<div class="flex flex-col gap-2 font-caption text-caption text-on-surface-variant dark:text-surface-variant">
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">location_on</span>
+<span class="">İNÖNÜ MH. 363. SK. KOÇERLER İŞMR N.1/23 / ESENYURT - İSTANBUL</span>
+</p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">call</span>
+<a class="hover:text-primary transition-colors" href="tel:+902126717173">+90 (212) 671 71 73</a>
+</p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">mail</span>
+<a class="hover:text-primary transition-colors" href="mailto:info@mamatoyz.com">info@mamatoyz.com</a>
+</p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">language</span>
+<a class="hover:text-primary transition-colors" href="https://mamatoyz.com.tr" target="_blank">mamatoyz.com.tr</a>
+</p>
+</div>
+</div></div></footer>
+
+
+
+
+
+
+</body></html>
